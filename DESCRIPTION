@@ -1,0 +1,16 @@
+Package: mapple
+Title: Use tibble/data.frame as dictionary
+Version: 0.0.0.9000
+Authors@R: person("Naoki", "Maejima", email = "malimo1024@gmail.com", role = c("aut","cre"))
+Description: Use tibble as key-value store. If a value in column matches key you specified, mapple returns another value in another column you specified.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    rlang,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
